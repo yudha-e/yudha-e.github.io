@@ -94,9 +94,9 @@ section h1{
     position: absolute;
 
 }
-.s1{background: darkgoldenrod url("https://yudha-e.github.io/assets/images/slide1.jpg");}
-.s2{background: brown url('https://yudha-e.github.io/assets/images/slide2.jpg');}
-.s3{background: chocolate url('https://yudha-e.github.io/assets/images/slide3.jpg');}
+.s1{background-color: darkgoldenrod;background-image: url("https://yudha-e.github.io/assets/images/slide1.jpg");}
+.s2{background-color: brown;background-image: url('https://yudha-e.github.io/assets/images/slide2.jpg');}
+.s3{background-color: chocolate;background-image: url('https://yudha-e.github.io/assets/images/slide3.jpg');}
 .slide{
     width: 100vw;
     height: 100vh;

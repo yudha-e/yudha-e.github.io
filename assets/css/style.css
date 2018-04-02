@@ -94,6 +94,9 @@ section h1{
     position: absolute;
 
 }
+.s1{background: darkgoldenrod url("https://yudha-e.github.io/assets/images/slide1.jpg");}
+.s2{background: brown url('https://yudha-e.github.io/assets/images/slide2.jpg');}
+.s3{background: chocolate url('https://yudha-e.github.io/assets/images/slide3.jpg');}
 .slide{
     width: 100vw;
     height: 100vh;
@@ -107,9 +110,7 @@ section h1{
     background-repeat:none;
 }
 #nav1{background-size:auto 85vh;}
-.s1{background: darkgoldenrod url("https://yudha-e.github.io/assets/images/slide1.jpg");}
-.s2{background: brown url('https://yudha-e.github.io/assets/images/slide2.jpg');}
-.s3{background: chocolate url('https://yudha-e.github.io/assets/images/slide3.jpg');}
+
 #slides.show0{
     left: 0vw;
     -webkit-transition: left 1s;

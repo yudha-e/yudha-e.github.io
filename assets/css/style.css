@@ -1,0 +1,207 @@
+body {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 12px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    background-color: #000;
+    width: 100vw;
+    z-index: 99;
+    opacity: .8;
+}
+nav ul{margin:0;padding: 0;max-height: 40px;}
+nav li{
+    color: #fff;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    min-width: 100px;
+    vertical-align: top;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+/*#nav1:hover,#nav1.selected{background-color: orangered;}*/
+#nav2:hover,#nav2.selected{background-color: #DDDDDD;color: #000000;}
+#nav3:hover,#nav3.selected{background-color: #767A7F;}
+#nav4:hover,#nav4.selected{background-color: aqua;color: #000000;}
+#home{background-color: #BBBBBB}
+#page1{background-color: #DDDDDD;}
+#page2{background-color: #767A7F;color: #FFFFFF;}
+#page3{background-color: aqua}
+#home,#page1,#page2,#page3{box-shadow: 0px 0px 15px #000;}
+
+.scrolling-box {
+    background: #eaeaea none;
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.scrolling-box.bg0{
+    background-image:url('/assests/images/ads0.png');
+}
+.scrolling-box.bg1{
+    background-image:url('/assests/images/ads1.jpg');
+}
+.scrolling-box.bg2{
+    background-image:url('/assests/images/ads2.png');
+}
+.scrolling-box.bg3{
+    background-image:url('/assests/images/ads3.png');
+}
+section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+section.ads{
+    height:70vh;
+}
+section h1{
+    line-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-size: 40px;
+}
+.slides-container{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#slides{
+    width: 300vw;
+    height: 100vh;
+    position: absolute;
+
+}
+.slide{
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: #fff;
+    line-height: 100vh;
+    background-size:cover;
+    background-repeat:none;
+}
+#nav1{background-size:auto 85vh;}
+.s1{background: darkgoldenrod url("/assests/images/slide1.jpg");}
+.s2{background: brown url('/assests/images/slide2.jpg');}
+.s3{background: chocolate url('/assests/images/slide3.jpg');}
+#slides.show0{
+    left: 0vw;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+#slides.show1{
+    left: -100vw;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+#slides.show2{
+    left: -200vw;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+#nav-slide{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0px 20px;
+    color:#000;
+    background-color: yellow;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px #444;
+    line-height: 40px;
+}
+#nav-slide:hover{
+    background-color: gold;
+}
+#nav-slide.pause{
+    background-color: red;
+    color: #EEEEEE;
+}
+#nav-slide.pause:hover{
+    background-color: darkred;
+    color: #EEEEEE;
+}
+#nav-number-slide{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-bottom: 20px;
+}
+#nav-number-slide .number-slide{
+    display: inline-block;
+    border-radius:20px;
+    line-height: 40px;
+    width: 40px;
+    background-color: gainsboro;
+    color: #000;
+    margin-left: 5px;
+    box-shadow: 0px 0px 3px #000;
+    cursor: pointer;
+    opacity: .8;
+}
+#nav-number-slide .number-slide:hover{
+    opacity: 1;
+}
+#nav-number-slide .number-slide.selected{
+    background-color: #767A7F;
+    color: #FFFFFF;
+}
+.footer{
+    background-color: black;
+    color: #EEEEEE;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 100vw;
+    display: block;
+}
+
+#page1 a{
+    text-decoration: none;
+    display: block;
+    height:40px;
+    line-height: 40px;
+    margin:40px;
+    border-radius:10px;
+    color:orange;
+}
+#page1 .json-container{
+    display:block;
+    width:100vw;
+}

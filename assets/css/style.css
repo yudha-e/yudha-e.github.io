@@ -55,16 +55,16 @@ nav li a{
     overflow-x: hidden;
 }
 .scrolling-box.bg0{
-    background-image:url('https://yudha-e.github.io/assests/images/ads0.png');
+    background-image:url('https://yudha-e.github.io/assets/images/ads0.png');
 }
 .scrolling-box.bg1{
-    background-image:url('https://yudha-e.github.io/assests/images/ads1.jpg');
+    background-image:url('https://yudha-e.github.io/assets/images/ads1.jpg');
 }
 .scrolling-box.bg2{
-    background-image:url('https://yudha-e.github.io/assests/images/ads2.png');
+    background-image:url('https://yudha-e.github.io/assets/images/ads2.png');
 }
 .scrolling-box.bg3{
-    background-image:url('https://yudha-e.github.io/assests/images/ads3.png');
+    background-image:url('https://yudha-e.github.io/assets/images/ads3.png');
 }
 section {
     display: flex;
@@ -107,9 +107,9 @@ section h1{
     background-repeat:none;
 }
 #nav1{background-size:auto 85vh;}
-.s1{background: darkgoldenrod url("https://yudha-e.github.io/assests/images/slide1.jpg");}
-.s2{background: brown url('https://yudha-e.github.io/assests/images/slide2.jpg');}
-.s3{background: chocolate url('https://yudha-e.github.io/assests/images/slide3.jpg');}
+.s1{background: darkgoldenrod url("https://yudha-e.github.io/assets/images/slide1.jpg");}
+.s2{background: brown url('https://yudha-e.github.io/assets/images/slide2.jpg');}
+.s3{background: chocolate url('https://yudha-e.github.io/assets/images/slide3.jpg');}
 #slides.show0{
     left: 0vw;
     -webkit-transition: left 1s;

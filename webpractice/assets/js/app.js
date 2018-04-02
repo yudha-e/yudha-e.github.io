@@ -97,7 +97,7 @@ window.onresize = () => {
     setTabs()
 };
 let xmlhttp = new XMLHttpRequest();
-let url = "https://yudha-e.github.io/data/json-file.txt";
+let url = "https://yudha-e.github.io/webpractice/data/json-file.txt";
 
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {

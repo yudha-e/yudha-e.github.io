@@ -67,17 +67,17 @@ function setTabs() {
     let tab2Top = document.getElementById('page2').offsetTop - bar;
     let tab3Top = document.getElementById('page3').offsetTop - bar;
     let footer = document.getElementById('footer').offsetTop - (window.innerHeight+bar);
-    if( (contentsTop < tab1Top) && (tab1Top < tab2Top )){
+    if(contentsTop < tab1Top){
         clickNavigasi(1);
         document.getElementById('contents').className = "scrolling-box bg0";
         window.history.pushState("home", "Web Practice - Yudha", "#home");
         document.title = "Web Practice - Yudha";
-    }else if((contentsTop < tab2Top) && (tab2Top < tab3Top)){
+    }else if(contentsTop < tab2Top){
         clickNavigasi(2);
         document.getElementById('contents').className = "scrolling-box bg1";
         window.history.pushState("page1", "Page 1 | Web Practice - Yudha", "#page1");
         document.title = "Page 1 | Web Practice - Yudha";
-    }else if((contentsTop < tab3Top) && (tab3Top < footer)){
+    }else if(contentsTop < tab3Top){
         clickNavigasi(3);
         document.getElementById('contents').className = "scrolling-box bg2";
         window.history.pushState("page2", "Page 2 | Web Practice - Yudha", "#page2");

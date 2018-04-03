@@ -62,9 +62,11 @@ nav li a{
 }
 .scrolling-box.bg1{
     background-image:url('/webpractice/assets/images/ads1.jpg');
+    background-position: top left;
 }
 .scrolling-box.bg2{
     background-image:url('/webpractice/assets/images/ads2.jpg');
+    background-position: top left;
 }
 .scrolling-box.bg3{
     background-image:url('/webpractice/assets/images/ads3.png');

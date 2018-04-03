@@ -68,7 +68,7 @@ function scrollToPage(id) {
     let change = to - start;
     let currentTime = 0;
     let increment = 50;
-    let duration = 100;
+    let duration = 1000;
 
     let animateScroll = function(){
         currentTime += increment;

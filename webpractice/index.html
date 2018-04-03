@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="favicon.png" rel="icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="/webpractice/assets/css/style.css">
+    <link rel="stylesheet" href="../webpractice/assets/css/style.css">
     <title>Web Practice - Yudha</title>
 </head>
 <body>
@@ -15,16 +15,22 @@
             <nav>
                 <ul>
                     <li>
-                        <a class="selected s1" href="#home" id="nav1">Home</a>
-                    </li><li>
-                        <a class="" href="#page1" id="nav2">Page 1</a>
-                    </li><li>
-                        <a class="" href="#page2" id="nav3">Page 2</a>
-                    </li><li>
-                    <a class="" href="#page3" id="nav4">Page 3</a>
+                        <a class="selected s1" href="javascript:void(0)" id="nav1" onclick="scrollToPage('home')">Home</a>
+                    </li><li class="desktop">
+                        <a class="" href="javascript:void(0)" id="nav2" onclick="scrollToPage('page1')">Page 1</a>
+                    </li><li class="desktop">
+                        <a class="" href="javascript:void(0)" id="nav3" onclick="scrollToPage('page2')">Page 2</a>
+                    </li><li class="desktop">
+                    <a class="" href="javascript:void(0)" id="nav4" onclick="scrollToPage('page3')">Page 3</a>
                 </li>
                 </ul>
             </nav>
+            <div class="menuList" onclick="showHideMenu()"><img src="/webpractice/assets/images/list.svg" alt="list"></div>
+            <div class="menuContent" id="menu">
+                <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page1')">Page 1</a></div>
+                <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page2')">Page 2</a></div>
+                <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page3')">Page 3</a></div>
+            </div>
         </header>
         <div class="scrolling-box ads0" id="contents" onscroll="setTabs()">
             <section id="home">
@@ -62,6 +68,6 @@
             <section class="footer" id="footer">&copy; Copyright 2018 - Yudha</section>
         </div>
     </div>
-    <script src="/webpractice/assets/js/app.js"></script>
+    <script src="../webpractice/assets/js/app.js"></script>
 </body>
 </html>

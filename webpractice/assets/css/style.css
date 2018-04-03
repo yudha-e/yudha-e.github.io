@@ -57,16 +57,16 @@ nav li a{
     overflow-x: hidden;
 }
 .scrolling-box.bg0{
-    background-image:url('https://yudha-e.github.io/webpractice/assets/images/ads0.jpg');
+    background-image:url('/webpractice/assets/images/ads0.jpg');
 }
 .scrolling-box.bg1{
-    background-image:url('https://yudha-e.github.io/webpractice/assets/images/ads1.jpg');
+    background-image:url('/webpractice/assets/images/ads1.jpg');
 }
 .scrolling-box.bg2{
-    background-image:url('https://yudha-e.github.io/webpractice/assets/images/ads2.jpg');
+    background-image:url('/webpractice/assets/images/ads2.jpg');
 }
 .scrolling-box.bg3{
-    background-image:url('https://yudha-e.github.io/webpractice/assets/images/ads3.png');
+    background-image:url('/webpractice/assets/images/ads3.png');
 }
 section {
     display: flex;
@@ -96,9 +96,9 @@ section h1{
     position: absolute;
 
 }
-.s1{background-color: darkgoldenrod;background-image: url("https://yudha-e.github.io/webpractice/assets/images/slide1.jpg");}
-.s2{background-color: brown;background-image: url('https://yudha-e.github.io/webpractice/assets/images/slide2.jpg');}
-.s3{background-color: chocolate;background-image: url('https://yudha-e.github.io/webpractice/assets/images/slide3.jpg');}
+.s1{background: darkgoldenrod url('/webpractice/assets/images/slide1.jpg') left top / cover no-repeat;}
+.s2{background: brown url('/webpractice/assets/images/slide2.jpg') left top / cover no-repeat;}
+.s3{background: chocolate url('/webpractice/assets/images/slide3.jpg') left top / cover no-repeat;}
 .slide{
     width: 100vw;
     height: 100vh;
@@ -108,8 +108,6 @@ section h1{
     font-size: 40px;
     color: #fff;
     line-height: 100vh;
-    background-size:cover;
-    background-repeat:none;
 }
 #nav1{background-size:auto 85vh;}
 
@@ -207,4 +205,54 @@ section h1{
 #page1 .json-container{
     display:block;
     width:100vw;
+}
+.menuList{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 999;
+    right: 3px;
+    top: 8px;
+}
+.menuList img{
+    width: 25px;
+    height: 25px;
+    opacity: .8;
+}
+.menuContent{
+    display: none;
+    position: fixed;
+    width: 50vw;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    right: 10px;
+    top: 45px;
+    z-index: 99;
+    overflow: hidden;
+}
+.menuContent a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 40px;
+    padding:0px 10px;
+    border-bottom: 1px dotted white;
+}
+.menuContent a:hover{
+    background-color: orange;
+}
+.menuContent div:last-child a{
+    border-bottom: none;
+}
+@media only screen and (max-width:401px){
+    nav li.desktop{display: none;}
+    body{font-size: 1.2em;}
+    .menuList{display: block;}
+    .menuContent.show{display: block;}
+}
+@media only screen and (min-width:400px){
+    nav li.desktop{display: inline-block;}
+    body{font-size: 13px;}
+    .menuList{display: none;}
+    .menuContent.show{display: none;}
 }

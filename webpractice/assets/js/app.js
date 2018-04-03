@@ -2,8 +2,9 @@ let slides = document.getElementById('slides');
 let currentSlide = 0;
 let totalSlide = 3;
 let timeSlide = 5000;
-let slideInterval = setInterval(nextSlide,timeSlide);
+let slideInterval = setInterval(nextSlide, timeSlide);
 let playing =true;
+let scrollInterval;
 function nextSlide(){
     goToSlide(currentSlide+1);
 }
@@ -58,8 +59,37 @@ function clickNavigasi(id) {
             document.getElementById('nav'+i.toString()).className = "";
         }
     }
-
+    hideMenu();
 }
+function scrollToPage(id) {
+    let to = document.getElementById(id).offsetTop;
+    let element = document.getElementById('contents');
+    let start = element.scrollTop;
+    let change = to - start;
+    let currentTime = 0;
+    let increment = 50;
+    let duration = 100;
+
+    let animateScroll = function(){
+        currentTime += increment;
+        let totalValue = Math.easeInOutQuad(currentTime, start, change, duration);
+        element.scrollTop = totalValue;
+        if(currentTime < duration) {
+            setTimeout(animateScroll, increment);
+        }
+    };
+    animateScroll();
+}
+//t = current time
+//b = start value
+//c = change in value
+//d = duration
+Math.easeInOutQuad = function (t, b, c, d) {
+    t /= d/2;
+    if (t < 1) return c/2*t*t + b;
+    t--;
+    return -c/2 * (t*(t-2) - 1) + b;
+};
 function setTabs() {
     let bar = 45;//(window.innerHeight*(50/100))
     let contentsTop =  document.getElementById('contents').scrollTop;
@@ -93,11 +123,28 @@ function setTabs() {
         document.title = "Web Practice - Yudha";
     }
 }
+let menuStatus = false;
+function showHideMenu(){
+    if(menuStatus){
+        hideMenu();
+    }else{
+        showMenu();
+    }
+    console.log(menuStatus);
+}
+function showMenu(){
+    document.getElementById('menu').className = "menuContent show";
+    menuStatus = true;
+}
+function hideMenu(){
+    document.getElementById('menu').className = "menuContent";
+    menuStatus = false;
+}
 window.onresize = () => {
     setTabs()
 };
 let xmlhttp = new XMLHttpRequest();
-let url = "https://yudha-e.github.io/webpractice/data/json-file.txt";
+let url = "/webpractice/data/json-file.txt";
 
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {

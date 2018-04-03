@@ -17,7 +17,7 @@ nav {
     background-color: #000;
     width: 100vw;
     z-index: 99;
-    opacity: .8;
+    opacity: 1;
 }
 nav ul{margin:0;padding: 0;max-height: 40px;}
 nav li{

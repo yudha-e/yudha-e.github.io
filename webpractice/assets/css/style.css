@@ -48,6 +48,7 @@ nav li a{
 .scrolling-box {
     background: #eaeaea none;
     background-size: cover;
+    background-position: center;
     display: block;
     height: 100vh;
     overflow-y: scroll;

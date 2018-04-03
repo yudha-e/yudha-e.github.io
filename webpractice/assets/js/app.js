@@ -61,7 +61,9 @@ function clickNavigasi(id) {
     }
     hideMenu();
 }
+let timeToScroll;
 function scrollToPage(id) {
+    clearTimeout(timeToScroll);
     let to = document.getElementById(id).offsetTop;
     let element = document.getElementById('contents');
     let start = element.scrollTop;
@@ -77,7 +79,7 @@ function scrollToPage(id) {
         let totalValue = Math.easeInOutQuad(currentTime, start, change, duration);
         element.scrollTop = totalValue;
         if(currentTime < duration) {
-            setTimeout(animateScroll, increment);
+            timeToScroll = setTimeout(animateScroll, increment);
         }
     };
     animateScroll();

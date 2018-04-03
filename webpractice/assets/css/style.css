@@ -211,17 +211,21 @@ section h1{
     width:100vw;
 }
 .menuList{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     z-index: 999;
     right: 3px;
-    top: 8px;
+    top: 3px;
+}
+.menuList:hover{
+    background-color: orange;
 }
 .menuList img{
     width: 25px;
     height: 25px;
     opacity: .8;
+    margin: 6px;
 }
 .menuContent{
     display: none;

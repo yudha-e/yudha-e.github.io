@@ -68,8 +68,10 @@ function scrollToPage(id) {
     let change = to - start;
     let currentTime = 0;
     let increment = 50;
-    let duration = 1000;
-
+    let duration = 100;
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        duration = 1000
+    }
     let animateScroll = function(){
         currentTime += increment;
         let totalValue = Math.easeInOutQuad(currentTime, start, change, duration);

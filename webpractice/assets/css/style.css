@@ -215,8 +215,8 @@ section h1{
     height: 40px;
     position: absolute;
     z-index: 999;
-    right: 3px;
-    top: 3px;
+    right: 0;
+    top: 0;
 }
 .menuList:hover{
     background-color: orange;
@@ -225,7 +225,7 @@ section h1{
     width: 25px;
     height: 25px;
     opacity: .8;
-    margin: 6px;
+    margin: 7px;
 }
 .menuContent{
     display: none;

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e18cfff-8220-4f50-bd5c-b112e7a5dfba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/webpractice/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpractice/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpractice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,15 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpractice/backup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpractice/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpractice/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="294" column="52" selection-start-line="294" selection-start-column="52" selection-end-line="294" selection-end-column="52" />
+            <state relative-caret-position="78">
+              <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -185,12 +174,12 @@
       <workItem from="1522653452273" duration="865000" />
       <workItem from="1522684881631" duration="68000" />
       <workItem from="1522710541145" duration="7669000" />
-      <workItem from="1522836781262" duration="12257000" />
+      <workItem from="1522836781262" duration="12724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20859000" />
+    <option name="totallyTimeSpent" value="21326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -267,6 +256,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpractice/backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpractice/endless-scrolling.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -276,15 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpractice/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="294" column="52" selection-start-line="294" selection-start-column="52" selection-end-line="294" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpractice/backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="78">
+          <caret line="283" column="19" selection-start-line="283" selection-start-column="19" selection-end-line="283" selection-end-column="19" />
         </state>
       </provider>
     </entry>

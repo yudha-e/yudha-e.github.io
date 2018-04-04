@@ -291,7 +291,6 @@ section h1{
     display: block;
     width: 100vw;
     border-bottom: 1px dotted #444444;
-    font-size: 5vh;
 }
 .add-page:nth-of-type(even){background-color: #222222;}
 .add-page:nth-of-type(odd){background-color: #444444;}
@@ -299,12 +298,10 @@ section h1{
     display: block;
     height: 50vh;
     background-color: greenyellow;
-    font-size: 5vh;
 }
 .scrolling-box.infinite .navButton a{
     text-decoration: none;
     color: #EEEEEE;
-    font-size: 3vh;
     background-color: red;
     padding: 5px 20px;
     margin-top: 1em;
@@ -351,6 +348,12 @@ section h1{
         min-height: 50vh;
         margin-top: 20vh;
     }
+    .add-page,#last-page{
+        font-size: 2em;
+    }
+    .scrolling-box.infinite .navButton a{
+        font-size: 1.2em;
+    }
 }
 @media only screen and (min-width:400px){
     nav li.desktop{display: inline-block;}
@@ -361,5 +364,11 @@ section h1{
         font-size: 10vw;
         min-height: 50vh;
         margin-top: 20vh;
+    }
+    .add-page,#last-page{
+        font-size: 5em;
+    }
+    .scrolling-box.infinite .navButton a{
+        font-size: 2.5em;
     }
 }

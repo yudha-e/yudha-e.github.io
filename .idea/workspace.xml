@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e18cfff-8220-4f50-bd5c-b112e7a5dfba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/webpractice/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpractice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpractice/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpractice/assets/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpractice/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="428">
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpractice/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="306" column="18" selection-start-line="306" selection-start-column="18" selection-end-line="306" selection-end-column="18" />
+            <state relative-caret-position="248">
+              <caret line="350" column="24" selection-start-line="350" selection-start-column="24" selection-end-line="350" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -78,10 +78,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/webpractice/backup.html" />
         <option value="$PROJECT_DIR$/webpractice/assets/js/app-scroll.js" />
-        <option value="$PROJECT_DIR$/webpractice/assets/css/style.css" />
         <option value="$PROJECT_DIR$/webpractice/endless-scrolling.html" />
         <option value="$PROJECT_DIR$/webpractice/assets/js/app.js" />
         <option value="$PROJECT_DIR$/webpractice/index.html" />
+        <option value="$PROJECT_DIR$/webpractice/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -175,12 +175,12 @@
       <workItem from="1522653452273" duration="865000" />
       <workItem from="1522684881631" duration="68000" />
       <workItem from="1522710541145" duration="7669000" />
-      <workItem from="1522836781262" duration="14138000" />
+      <workItem from="1522836781262" duration="14629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22740000" />
+    <option name="totallyTimeSpent" value="23231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -243,20 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpractice/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="306" column="18" selection-start-line="306" selection-start-column="18" selection-end-line="306" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpractice/endless-scrolling.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpractice/assets/js/app-scroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
@@ -275,6 +261,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpractice/endless-scrolling.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpractice/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="350" column="24" selection-start-line="350" selection-start-column="24" selection-end-line="350" selection-end-column="24" />
         </state>
       </provider>
     </entry>

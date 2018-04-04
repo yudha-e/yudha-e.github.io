@@ -282,6 +282,7 @@ section h1{
 }
 .scrolling-box.infinite h1{
     font-size: 10vw;
+    min-height: 50vh;
 }
 .navButton{position: fixed}
 .add-page{

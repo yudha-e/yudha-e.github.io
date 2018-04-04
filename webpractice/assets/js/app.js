@@ -170,6 +170,7 @@ function drawJson(jsonArray) {
     document.getElementById("page1").innerHTML = out;
 }
 function closeLeft() {
+    hideMenu();
     document.getElementById("wrapContent").className = "wraps close";
     setTimeout(function () {
         window.location = "/webpractice/endless-scrolling.html";

@@ -282,7 +282,8 @@ section h1{
 }
 .scrolling-box.infinite h1{
     font-size: 10vw;
-    min-height: 50vh;
+    min-height: 70vh;
+    margin-top: 20vh;
 }
 .navButton{position: fixed}
 .add-page{
@@ -290,7 +291,7 @@ section h1{
     display: block;
     width: 100vw;
     border-bottom: 1px dotted #444444;
-    font-size: 7vw;
+    font-size: 5vh;
 }
 .add-page:nth-of-type(even){background-color: #222222;}
 .add-page:nth-of-type(odd){background-color: #444444;}
@@ -298,12 +299,12 @@ section h1{
     display: block;
     height: 50vh;
     background-color: greenyellow;
-    font-size: 3em;
+    font-size: 5vh;
 }
 .scrolling-box.infinite .navButton a{
     text-decoration: none;
     color: #EEEEEE;
-    font-size: 3vw;
+    font-size: 3vh;
     background-color: red;
     padding: 5px 20px;
     margin-top: 1em;
@@ -345,10 +346,20 @@ section h1{
     body{font-size: 1.2em;}
     .menuList{display: block;}
     .menuContent.show{display: block;}
+    .scrolling-box.infinite h1{
+        font-size: 20vw;
+        min-height: 50vh;
+        margin-top: 20vh;
+    }
 }
 @media only screen and (min-width:400px){
     nav li.desktop{display: inline-block;}
     body{font-size: 13px;}
     .menuList{display: none;}
     .menuContent.show{display: none;}
+    .scrolling-box.infinite h1{
+        font-size: 10vw;
+        min-height: 50vh;
+        margin-top: 20vh;
+    }
 }

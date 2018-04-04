@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,21 @@ body {
     font-size: 12px;
 	margin:0;
 	padding:0;
+    overflow: hidden;
+}
+.wraps{
+    position: relative;
+    left: 0;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+.wraps.close{
+    left: -100vw;
+}
+.wraps.open{
+    left: 100vw;
 }
 nav {
     position: fixed;
@@ -36,7 +51,14 @@ nav li a{
     display: block;
     text-align: center;
 }
-/*#nav1:hover,#nav1.selected{background-color: orangered;}*/
+nav li a:hover,nav li a.link-active.selected{background-color: red;}
+nav li a.link-active{
+    line-height: 1.1em;
+    height: 30px;
+    vert-align: middle;
+    padding: 5px 0;
+}
+#nav1:hover,#nav1.selected{background-color: orangered;}
 #nav2:hover,#nav2.selected{background-color: #DDDDDD;color: #000000;}
 #nav3:hover,#nav3.selected{background-color: #767A7F;}
 #nav4:hover,#nav4.selected{background-color: aqua;color: #000000;}
@@ -252,6 +274,71 @@ section h1{
 }
 .menuContent div:last-child a{
     border-bottom: none;
+}
+.scrolling-box.infinite {
+    background: #111111;
+    color: #EEEEEE;
+    text-align: left;
+}
+.scrolling-box.infinite h1{
+    font-size: 10em;
+}
+.navButton{position: fixed}
+.add-page{
+    height: 100vh;
+    display: block;
+    width: 100vw;
+    border-bottom: 1px dotted #444444;
+    font-size: 7em;
+}
+.add-page:nth-of-type(even){background-color: #222222;}
+.add-page:nth-of-type(odd){background-color: #444444;}
+#last-page{
+    display: block;
+    height: 50vh;
+    background-color: greenyellow;
+    font-size: 3em;
+}
+.scrolling-box.infinite .navButton a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 3em;
+    background-color: red;
+    padding: 5px 20px;
+    margin-top: 1em;
+    display: block;
+    max-width: 10em;
+    text-align: center;
+}
+.scrolling-box.infinite span{
+    font-size: .8em;
+    color: orange;
+}
+.arrow-button{
+    position: fixed;
+    margin-left: 50vw;
+    bottom: 0;
+    height: 50px;
+}
+.arrow-button a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-left: -50px;
+    line-height: 50px;
+
+}
+.arrow{
+    background-color: greenyellow;
+    position: absolute;
+    width: 100px;
+    height:100px;
+    margin-left: -50px;
+    transform: rotate(45deg);
 }
 @media only screen and (max-width:401px){
     nav li.desktop{display: none;}

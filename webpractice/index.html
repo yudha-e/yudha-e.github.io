@@ -11,7 +11,7 @@
     <title>Web Practice - Yudha</title>
 </head>
 <body>
-    <div class="wraps">
+    <div class="wraps" id="wrapContent">
         <header>
             <nav>
                 <ul>
@@ -22,8 +22,10 @@
                     </li><li class="desktop">
                         <a class="" href="javascript:void(0)" id="nav3" onclick="scrollToPage('page2')">Page 2</a>
                     </li><li class="desktop">
-                    <a class="" href="javascript:void(0)" id="nav4" onclick="scrollToPage('page3')">Page 3</a>
-                </li>
+                        <a class="" href="javascript:void(0)" id="nav4" onclick="scrollToPage('page3')">Page 3</a>
+                    </li><li class="desktop">
+                        <a class="link-active" href="javascript:void(0)" onclick="closeLeft()">Endless<br>Scrolling</a>
+                    </li>
                 </ul>
             </nav>
             <div class="menuList" onclick="showHideMenu()"><img src="/webpractice/assets/images/list.svg" alt="list"></div>
@@ -31,6 +33,7 @@
                 <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page1')">Page 1</a></div>
                 <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page2')">Page 2</a></div>
                 <div><a class="" href="javascript:void(0)" onclick="scrollToPage('page3')">Page 3</a></div>
+                <div><a class="" href="/webpractice/endless-scrolling.html">Endless Scrolling</a></div>
             </div>
         </header>
         <div class="scrolling-box ads0" id="contents" onscroll="setTabs()">

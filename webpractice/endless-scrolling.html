@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000">
+    <link href="favicon.png" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../webpractice/assets/css/style.css?v=20180403-6">
+    <title>Endless Scrolling</title>
+</head>
+<body>
+    <div class="wraps" id="wrapContent">
+        <div class="scrolling-box infinite" id="page-content" onscroll="addPages()">
+            <div class="navButton"><a href="javascript:void(0)" onclick="openPages()"><span>&#9664;</span> BACK TO FRONT</a></div>
+            <h1>Endless<br>Scrolling</h1>
+            <div id="content-new">
+                <div class="add-page">Start page</div>
+            </div>
+            <div id="last-page">Last page</div>
+            <div class="arrow-button">
+                <div class="arrow"></div>
+                <div><a href="javascript:void(0)" id="button-up" onclick="scrollUp()">GO UP</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="../webpractice/assets/js/app-scroll.js"></script>
+</body>
+</html>

@@ -101,6 +101,7 @@ function setTabs() {
     let tab2Top = document.getElementById('page2').offsetTop - bar;
     let tab3Top = document.getElementById('page3').offsetTop - bar;
     let footer = document.getElementById('footer').offsetTop - (window.innerHeight+bar);
+    console.log(contentsTop);
     if(contentsTop < tab1Top){
         clickNavigasi(1);
         document.getElementById('contents').className = "scrolling-box bg0";
@@ -167,4 +168,10 @@ function drawJson(jsonArray) {
     }
     out += '</div>';
     document.getElementById("page1").innerHTML = out;
+}
+function closeLeft() {
+    document.getElementById("wrapContent").className = "wraps close";
+    setTimeout(function () {
+        window.location = "/webpractice/endless-scrolling.html";
+    },1500)
 }
